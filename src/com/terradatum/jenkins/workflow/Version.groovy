@@ -2,8 +2,9 @@ package com.terradatum.jenkins.workflow
 
 import com.cloudbees.groovy.cps.NonCPS
 
-@GrabResolver(name='nexus', root='https://nexus.terradatum.com/content/groups/public/')
-@Grab('com.github.zafarkhaja:java-semver:0.10-SNAPSHOT')
+/*GrabResolver(name='nexus', root='https://nexus.terradatum.com/content/groups/public/')*/
+@GrabResolver(name='nexus', root='http://nexus.anotheria.net/nexus/content/repositories/central/')
+@Grab('com.github.zafarkhaja:java-semver:0.9.0')
 
 /**
  * @author rbellamy@terradatum.com 
